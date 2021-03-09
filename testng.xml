@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" data-provider-thread-count="2">
+<listeners>
+<listener class-name="com.iq.listeners.ListenerClass" />
+<listener class-name="com.iq.listeners.MethodInterceptor"/>
+<listener class-name="com.iq.listeners.AnnotationTransformer"/>
+</listeners>
+  <test thread-count="1" name="Test" parallel="methods">
+    <classes>
+      <!-- <class name="com.iq.tests.GoogleSearchTest"/> -->
+      <class name="com.iq.tests.OrangeHRMLoginPageTest"/>
+      <!-- <class name="com.iq.tests.HarveyNormanLoginPageTest"/> -->
+      <class name="com.iq.tests.AmazonHomePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

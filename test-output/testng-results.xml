@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19077" started-at="2021-02-08T20:52:52Z" finished-at="2021-02-08T20:53:11Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19077" started-at="2021-02-08T20:52:52Z" finished-at="2021-02-08T20:53:11Z">
+      <class name="com.iq.tests.OrangeHRMLoginPageTest">
+        <test-method status="PASS" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.iq.tests.OrangeHRMLoginPageTest@60611244]" name="setUp" is-config="true" duration-ms="3667" started-at="2021-02-08T20:52:52Z" finished-at="2021-02-08T20:52:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@636e8cc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLoginLogout(java.util.Map)[pri:0, instance:com.iq.tests.OrangeHRMLoginPageTest@60611244]" name="testLoginLogout" duration-ms="5505" started-at="2021-02-08T20:52:56Z" description="Amazon Test" finished-at="2021-02-08T20:53:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=, mainMenuItem=, password=YWRtaW4xMjM=, browser=chrome, subMenuItem=, testname=testLoginLogout, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLogout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.iq.tests.OrangeHRMLoginPageTest@60611244]" name="tearDown" is-config="true" duration-ms="71" started-at="2021-02-08T20:53:02Z" finished-at="2021-02-08T20:53:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.iq.tests.OrangeHRMLoginPageTest@60611244]" name="setUp" is-config="true" duration-ms="3491" started-at="2021-02-08T20:53:02Z" finished-at="2021-02-08T20:53:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@f79a760]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="newTest(java.util.Map)[pri:0, instance:com.iq.tests.OrangeHRMLoginPageTest@60611244]" name="newTest" duration-ms="5632" started-at="2021-02-08T20:53:05Z" description="This is a  dummy test." finished-at="2021-02-08T20:53:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=, mainMenuItem=, password=YWRtaW4xMjM=, browser=chrome, subMenuItem=, testname=newTest, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.iq.tests.OrangeHRMLoginPageTest@60611244]" name="tearDown" is-config="true" duration-ms="75" started-at="2021-02-08T20:53:11Z" finished-at="2021-02-08T20:53:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.iq.tests.OrangeHRMLoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

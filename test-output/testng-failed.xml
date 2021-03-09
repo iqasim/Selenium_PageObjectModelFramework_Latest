@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" data-provider-thread-count="2">
+  <listeners>
+    <listener class-name="com.iq.listeners.ListenerClass"/>
+    <listener class-name="com.iq.listeners.MethodInterceptor"/>
+    <listener class-name="com.iq.listeners.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.iq.tests.OrangeHRMLoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="newTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.iq.tests.OrangeHRMLoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

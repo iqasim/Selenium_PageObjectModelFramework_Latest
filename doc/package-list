@@ -1,0 +1,12 @@
+com.iq.annotation
+com.iq.constants
+com.iq.driver
+com.iq.enums
+com.iq.exceptions
+com.iq.factories
+com.iq.listeners
+com.iq.pages
+com.iq.report
+com.iq.tests
+com.iq.utils
+com.iq.utils.copy
